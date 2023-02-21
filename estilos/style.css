@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body{
+
+}
+body{
+    background-color: rgb(108, 58, 155);
+    font-family: Arial, Helvetica, sans-serif;
+}
+img#foto{
+    height: 200px;
+    width: 270px;
+    border-radius: 18px 18px 0px 0px;
+}
+main{
+    margin-top: 22vh;
+    width: 270px;
+    height: 530px;
+    background-color: white;
+    border-radius: 18px;
+}
