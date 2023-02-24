@@ -74,7 +74,5 @@ input#isenha, input#iemail {
     align-content: right;
     margin-left: 72px;
     background-color: rgb(163, 255, 224);
-}
-input#isenha:{
-    background-color: aliceblue;
+    font-size: 1.0em;
 }
