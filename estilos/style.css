@@ -22,14 +22,59 @@ main{
     background-color: white;
     border-radius: 18px;
     margin-top: 22vh;
+    margin-left: 38vw;
 }
 h1{
     text-align: center;
     padding-top:10px ;
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 p{
     font-size: 0.8em;
     
 }form#iform{
     
+}
+div > p {
+    margin-left: 7px;
+
+}
+ input#ienter, input#iforgot{
+    display: block;
+    width: 235px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 8px;
+}
+input#iforgot{
+    font-size: 0.9em;
+    color: rgb(0, 102, 68);
+    border: 2px solid rgba(89, 184, 160, 0.658);
+}
+input#ienter{
+    background-color: #0c8d89f5;
+    border: 2px solid #3faca8f5;
+    color: white;
+    font-size: 1.0em;
+    
+}
+input#ienter:hover{
+    background-color: rgb(27, 97, 75);
+}
+input#iforgot:hover{
+    background-color: aquamarine;
+}
+input#isenha, input#iemail {
+    display: block;
+    width: 170px;
+    height: 34px;
+    margin: 10px;
+    border-radius: 8px;
+    align-content: right;
+    margin-left: 72px;
+    background-color: rgb(163, 255, 224);
+}
+input#isenha:{
+    background-color: aliceblue;
 }
