@@ -15,6 +15,7 @@ img#foto{
     height: 210px;
     width: 260px;
     border-radius: 18px 18px 0px 0px;
+    display: block;
 }
 main{
     width: 260px;
@@ -27,6 +28,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    transition: width 0.1s, height 0.1s;  /*animação da transição*/
 }
 h1{
     text-align: center;
