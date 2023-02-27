@@ -7,6 +7,7 @@
         width: 90vw ;
         height: 70vh;
         display: inline;
+       
     }
     div#img{
         
@@ -29,7 +30,16 @@
         margin-top: -10px;
     }
     body{
-        background-image: linear-gradient(to top, #49a09a, #5f2c82 );
+        background-image: linear-gradient(to top, #49a09a, #5f2c82);  
+    }
+    input#ienter, input#iforgot{
+    
+        border-radius: 8px;
+        display: block;
+        width: 140px;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-left: 12vw;
     }
 }
 @media screen and (min-width: 992px){
@@ -41,6 +51,7 @@
         width: 30vw;
         height: 60vh;
         border-radius: 20px 0px 0px 20px;
+        
     }
     div#formulario{
         position: absolute;
@@ -49,6 +60,7 @@
         transform: translate(8%, -60%);
         margin: 20px;
         padding: 20px;
+        
     }
     body{
         background-image: linear-gradient(to top, #49a09a ,#5f2c82);
