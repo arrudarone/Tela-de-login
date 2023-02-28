@@ -1,7 +1,17 @@
 @charset "utf-8";
 
-@media screen and (min-width: 769px){
+/*media breakpoints devices
+tablets 481 -  768
+laptops 769 - 1024
+desktops 1025 - 1200
+tvs1201*/
+
+@media screen and (min-width: 481px) and (max-width:768){ 
     body{
-        background-image:linear-gradient(to top, rgb(161, 233, 177), rgb(231, 231, 209)) ;
+        background-image: linear-gradient(to top, #328bdf, #2dce6b);
+    }
+    section#login > div#img{
+        float: left;
+
     }
 }
