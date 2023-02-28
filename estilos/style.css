@@ -34,6 +34,7 @@ section{
     
 }
 div#img{
+    display: block;
     /*uso de vw e vh para imagem se adaptar ao tamanho da tela de login, diferentes dispositivos*/
     background: url(../imagens/tela.jpg) no-repeat;
     background-position: left right;
@@ -45,10 +46,16 @@ div#img{
     border-radius: 20px 20px 0px 0px;
     
 }
+div#formulario{
+    display: block;
+}
 h1{
+    margin-bottom: 8px;
     font-size: 1.6em;
+    text-align: center;
 }
 p{
     font-size: 0.8em;
     font-weight:480;
+    text-align: center;
 }

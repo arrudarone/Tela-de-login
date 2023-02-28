@@ -6,12 +6,15 @@ laptops 769 - 1024
 desktops 1025 - 1200
 tvs1201*/
 
-@media screen and (min-width: 481px) and (max-width:768){ 
+@media screen and (min-width: 768px) and (max-width:992px){ 
     body{
         background-image: linear-gradient(to top, #328bdf, #2dce6b);
     }
     section#login > div#img{
         float: left;
 
+    }
+    section#login > div#formulario{
+        float: right;
     }
 }
