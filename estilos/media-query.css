@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/*media breakpoints devices
+/* typical media devices breakpoints 
 tablets 481 -  768
 laptops 769 - 1024
 desktops 1025 - 1200
@@ -13,7 +13,7 @@ tvs1201*/
     section#login > div#img{
         width: 25vw;
         float: left;
-        height: 50vh;
+        height: 60.5vh;
         border-radius: 20px 0px 0px 20px;
 
 
@@ -42,4 +42,8 @@ tvs1201*/
     padding: 10px;
     
    }
+  div#formulario > form#dados{
+    margin-left: 135px;
+    margin-top: 30px;
+  }
 }
