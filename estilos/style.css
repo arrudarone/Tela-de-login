@@ -72,20 +72,48 @@ p{
     font-weight:480;
     text-align: center;
 }
-div#formulario > form#dados {
-    display:grid;
-    width: 10vw;
-    margin-left: 35px;
-    
-    
+div#formulario > form#dados {   
     
 }
-input#iemail, input#isenha, input#ienter, input#forgot {
-    margin-top: 8px;
-    width: 150px;
-    padding: 4px;
-    box-sizing: border-box;
-    
-}div#formulario > form#dados{
+input#iemail, input#isenha{
+    background-color: #249c745b;
+    width: 140px;
+    padding: 3px;
+    border-radius: 8px;
+
+}
+input#iemail:hover , input#isenha:hover{
+    background-color: #2dce6b;
+}
+form#dados > div#mail, div#key{
+    margin: auto;
+}
+input#forgot, input#ienter{
+    width: 180px;
+    padding: 3px;
+    border-radius: 8px;
+    margin-top: 5px;
+    display: block;
     
 }
+a{
+    text-decoration: none;
+}
+input#ienter{
+    color: rgb(43, 15, 15);
+    background-color: #249c74;
+}
+input#ienter:hover{
+    background-color: #2dce6b;
+    color: white;
+}
+input#forgot{
+    color: var(--color5);
+    font-weight: bold;
+
+}form#dados{
+    margin: auto;
+}
+
+
+
