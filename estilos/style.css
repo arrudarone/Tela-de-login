@@ -79,7 +79,7 @@ input#iemail, input#isenha{
     background-color: #249c745b;
     width: 140px;
     padding: 3px;
-    border-radius: 8px;
+    border-radius: 6px;
 
 }
 input#iemail:hover , input#isenha:hover{
@@ -87,11 +87,19 @@ input#iemail:hover , input#isenha:hover{
 }
 form#dados > div#mail, div#key{
     margin: auto;
+   
+    width: 179px;
+    margin: 8px 0px;
+    padding: 0px;
+    border-radius: 12px;
+    height: 30px;
+    
+
 }
 input#forgot, input#ienter{
     width: 180px;
     padding: 3px;
-    border-radius: 8px;
+    border-radius: 4px;
     margin-top: 5px;
     display: block;
     
@@ -114,6 +122,7 @@ input#forgot{
 }form#dados{
     margin: auto;
 }
+
 
 
 
